@@ -1,10 +1,10 @@
 name: cis_macos
 title: InSpec Profile
-maintainer: The Authors
-copyright: The Authors
-copyright_email: you@example.com
+maintainer: Robert Ressl
+copyright: Robert Ressl
+copyright_email: r.ressl@safematix.com
 license: Apache-2.0
-summary: An InSpec Compliance Profile
+summary: CIS-macOS Compliance Profile
 version: 0.1.0
 supports:
-  platform: os
+  platform-family: darwin

@@ -8,9 +8,9 @@ control 'update-1.1' do
     its('stderr') { should include 'No new software available' }
   end
   lastsuccessfuldate = Time.parse(command('defaults read /Library/Preferences/com.apple.SoftwareUpdate LastSuccessfulDate').stdout)
-  diffdays = (Time.new - lastsuccessfuldate) / 60 / 60 / 24
+  diffdays = Time.new - lastsuccessfuldate
   describe diffdays do
-    it { should be <= 30 }
+    it { should be <= 2.592e+6 }
   end
 end
 

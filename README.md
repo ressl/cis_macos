@@ -1,6 +1,6 @@
-# Project Title
+# CIS-macOS InSpec profile
 
-One Paragraph of project description goes here
+This is the macOS CIS InSpec profile.
 
 ## Getting Started
 
@@ -8,57 +8,37 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Install the following software:
 
-```
-Give examples
-```
+* InSpec
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Clone the project via git:
 
 ```
-Give the example
+git clone https://github.com/safematix/cis_macos.git
 ```
 
-And repeat
+Start InSpec and execute the profile:
 
 ```
-until finished
+inspec exec cis_macos
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
 ### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
-* [chef](https://www.chef.io) - Chef Software, Inc
+* [InSpec](https://www.inspec.io/) - Chef Software, Inc
 
 ## Contributing
 
@@ -66,13 +46,13 @@ Please read [CONTRIBUTING](CONTRIBUTING.md) for details on our code of conduct, 
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/safematix/cis_macos/tags). 
 
 ## Authors
 
 * **Robert Ressl** - *Initial work* - [Robert Ressl](https://github.com/safematix)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/safematix/cis_macos/contributors) who participated in this project.
 
 ## License
 
@@ -80,11 +60,5 @@ This project is licensed under the GNU Affero General Public License v3.0 Licens
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
-
 ## Thanks to…
 
-* People who helped you.
-* Persons you have taken code from

@@ -1,7 +1,5 @@
 title "update"
 
-time = Time.new
-
 control 'update-1.1' do
   impact 1.0
   title 'CIS: Install Updates, Patches and Additional Security Software'
